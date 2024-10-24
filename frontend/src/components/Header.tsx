@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MapPin, Phone, Menu, X, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import logo from '../assets/Logo.svg';
 interface SubItem {
   to: string;
   label: string;
@@ -49,7 +49,7 @@ const Header = () => {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
             <div className="flex items-center">
               <img 
-                src="/src/assets/Images/LIbraryLogo.png" 
+                src={logo} 
                 alt="Library Logo" 
                 className="h-12 lg:h-20 mr-3" 
               />
