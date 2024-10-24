@@ -67,7 +67,7 @@ const Home = () => (
           <CardContent className="flex items-center justify-between p-4">
             <div className="flex items-center">
               <Phone className="mr-2" />
-              <span>(123) 456-7890</span>
+              <span>+91 - 704572536</span>
             </div>
             <Button asChild>
               <Link to="/contact">Get in Touch</Link>
